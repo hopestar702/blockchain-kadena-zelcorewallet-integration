@@ -19,8 +19,8 @@ BLOCKCHAIN CONFIGURATION FILE
 
 //chain that contract lives on
 //CHAINID -> selected string 0-19
-var chainId = "1";
-// var chainId = "0";
+// var chainId = "1";
+var chainId = "0";
 
 //id of network version
 const networkId = "testnet04";
