@@ -74,8 +74,8 @@ const formatCapabilityArgument = (args) => {
         if (Number(value)) return Number(value);
 
         // check if boolean
-        if (value == "false") return false;
-        if (value == "true") return true;
+        if (value === "false") return false;
+        if (value === "true") return true;
 
         // default string
         return value;
