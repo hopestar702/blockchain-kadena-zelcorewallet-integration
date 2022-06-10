@@ -24,14 +24,14 @@ const NavUI = () => {
       <div className="lg:w-4/5 mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            {/* <a href="#"> */}
               <span className="sr-only">Workflow</span>
               <img
                 className="h-8 w-auto sm:h-10"
                 src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                 alt=""
               />
-            </a>
+            {/* </a> */}
           </div>
 
           <Popover.Group as="nav" className="hidden md:flex md:items-center space-x-10">
