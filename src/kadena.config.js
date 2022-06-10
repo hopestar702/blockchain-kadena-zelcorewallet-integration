@@ -20,14 +20,18 @@ BLOCKCHAIN CONFIGURATION FILE
 //chain that contract lives on
 //CHAINID -> selected string 0-19
 var chainId = "1";
+// var chainId = "0";
 
 //id of network version
 const networkId = "testnet04";
-//var networkId = "mainnet01";
+// const networkId = "testnet02";
+// var networkId = "mainnet00";
 
 //network node
 const node = "api.testnet.chainweb.com"
-//var node = "us-e1.chainweb.com";
+// const node = "api.chainweb.com"
+// var node = "us-e1.chainweb.com";
+// const node = "us1.testnet.chainweb.com"
 
 //unique contract name
 //DEPLOY OWN -> "memory-wall-hash(currentTime + projectName)"

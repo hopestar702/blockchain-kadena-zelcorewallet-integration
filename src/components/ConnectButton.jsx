@@ -55,7 +55,7 @@ const ConnectButton = () => {
                 onClick={handleConnect}>
                     Connect Wallet
             </button>
-            <div style={{width: "60px", overflow: "hidden"}}>
+            <div style={{width: "80px", overflow: "hidden"}}>
                 { walletAddress }
             </div>
 

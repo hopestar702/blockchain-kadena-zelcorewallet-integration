@@ -145,7 +145,8 @@ const Methods = () => {
     console.log(cmd)
     
     try {
-      setResult('') 
+      setResult('')
+      setIsLoading(true)
       setError(false)
 
       const signedReq = await Pact.wallet.sign(cmd)
