@@ -28,7 +28,7 @@ const NavUI = () => {
               <span className="sr-only">Workflow</span>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                src="logo_small.png"
                 alt=""
               />
             {/* </a> */}
@@ -41,12 +41,12 @@ const NavUI = () => {
             <NavLink to="/keypair" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Generate Keypairs
             </NavLink>
-            <NavLink to="/contract" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            {/* <NavLink to="/contract" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Smart Contract
-            </NavLink>
-            <NavLink to="/gasstation" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </NavLink> */}
+            {/* <NavLink to="/gasstation" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Gas Station
-            </NavLink>
+            </NavLink> */}
             <ConnectButton />
           </Popover.Group>
         </div>

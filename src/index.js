@@ -17,8 +17,8 @@ ReactDOM.render(
       <Route path="/" element={<App />} >
         <Route path="/methods" element={<Methods />} />
         <Route path="/keypair" element={<Keypair />} />
-        <Route path="/contract" element={<Contract />} />
-        <Route path="/gasstation" element={<GasStation />} />
+        {/* <Route path="/contract" element={<Contract />} />
+        <Route path="/gasstation" element={<GasStation />} /> */}
       </Route>
     </Routes>
   </BrowserRouter>,
