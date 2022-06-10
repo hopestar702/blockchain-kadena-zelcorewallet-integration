@@ -7,8 +7,8 @@ import "./index.css"
 import App from "./App";
 import Methods from "./routes/Methods";
 import Keypair from "./routes/Keypair";
-import Contract from "./routes/Contract";
-import GasStation from "./routes/GasStation";
+// import Contract from "./routes/Contract";
+// import GasStation from "./routes/GasStation";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
